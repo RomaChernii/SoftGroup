@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+.page {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+}
+
+.page .header {
+  height: 100px;
+  background-color: #e1e1e1;
+  padding: 0;
+}
+
+.page .container {
+  margin: 0 auto;
+  background-color: #53545e;
+  height: 100%;
+}
+
+.page .logo {
+  float: left;
+  padding: 30px;
+}
+
+.page а {
+  text-decoration: none;
+}
+
+.page a:hover { 
+  text-decoration: none;
+}
+
+.page .header b {
+  font-size: 30px;
+  font-weight: Bold;
+  color: #ffffff;
+  position: absolute; 
+  left: 90px; 
+}
+
+.page .header span {
+  color: #a6a7b0;
+}
+
+.page .header p {
+  font-size: 12px;
+  font-weight: Bold;
+  color: #ffffff;
+  position: absolute; 
+  right: 30px; 
+  top: 53px; 
+  float: right;
+}
+
+.page .title{
+  font-size: 18px;
+  font-weight: Bold;
+  color: #53545e;
+}
+
+.page .content {
+  display: inline-flex;
+  background-color: #f1f1f1;
+  margin: 0 auto;
+}
+
+.page .posts {
+  
+  margin: 0 auto;
+  background-color: #ffffff;
+  height: 100%;
+}
+
+.page .post img {
+  width: 100%;
+}
+
+.page .main-img {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.page .main-post p {
+  margin: 20px 15px;
+}
+
+.page .details {
+  margin-left: 15px;
+}
+
+.page .post p {
+  margin-top: 10px;
+}
+
+.page .text {
+  font-size: 13px;
+  color: #bfc0c3;
+}
+
+.page .button a {
+  display: inline-block;
+  height: 38px;
+  width: 81px;
+  background-color: #53545e;
+  font-size: 14px;
+  font-weight: Bold;
+  text-align: center;
+  padding: 10px;
+  color: #ffffff;
+}
+
+.page .img_post {
+  display: inline-block;
+  width: 100%;
+}
+
+.page hr {
+  margin: 30px 0px ;
+}
+
+.page .ads {
+  display: inline-block;
+  width: 100%;
+}
+
+.page .ads img {
+  width: 100%;
+}
+
+.page .blog {
+  margin: 15px ;
+}
+
+.page .footer {
+  width: 100%;
+  height: 375px;
+  background-color: #e1e1e1;
+  padding: 0;
+}
+
+.page .connected {
+  background-color: #f1f1f1;
+  height: 75px;
+  margin: 0 auto;
+  padding: 25px 15px;
+}
+
+.page .icon {
+  color: #333;
+}
+
+.page .size {
+  font-size: 20px;
+  margin: -10px 5px;
+}
+
+.page .color {
+ color: #e1e1e1; 
+}
+
+.page .links {
+  margin: 0 auto;
+  background-color: #53545e;
+  display: table;
+  height: auto;
+}
+
+.page .links p {
+  font-size: 13px;
+  color: #ffffff;
+  margin: 30px 0;
+}
+
+.page .links a {
+  font-size: 13px;
+  color: #ffffff;
+}
+
+.page ul {
+  position: absolute; 
+  right: 30px; 
+  margin: 30px;
+}
+
+.page li {
+  list-style-type: none;
+}
+
+.page li:before {
+  content: ">"; 
+  color: #ffffff;
+  font-weight: Bold;
+  margin: 10px;
+}
+
+.page .developer {
+  float: left;
+  font-size: 13px;
+  color: #9b9ca5;
+}
+
+.page .developer p {
+  color: #9b9ca5;
+  margin-top: -5px;
+  margin-left: 0;
+}
+
+.page .link {
+  margin: -5px 30px -5px -5px;
+  float: right;
+  text-align: right;
+}
+
+.page .link a {
+  margin: 5px;
+}
+
+.page .target a:hover { 
+  text-decoration: underline;
+  color: #00aeef;
+}
+
+.page .center {
+  margin: 0 auto;
+  float: none;
+}
+
+@media screen and (max-width: 768px) {
+  .page .ads a {
+    padding-left: 7px;
+    padding-right: 7px;
+  }
+
+  .page .post {
+    padding-left: 0;
+  }
+
+  .page .post:first-child {
+    padding-left: 15px;
+  }
+
+  .page .size {
+    margin: 0;
+    font-size: 16px;
+  }
+}
